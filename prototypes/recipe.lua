@@ -1,4 +1,4 @@
-data:extend({
+--[[data:extend({
   {
     type = "recipe",
     name = "fishery",
@@ -11,4 +11,4 @@ data:extend({
     }
     result = "fishery"
   }
-})
+})]]--

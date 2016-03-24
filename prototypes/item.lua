@@ -1,4 +1,4 @@
-data:extend({
+--[[data:extend({
   {
     type = "item",
     name = "fishery",
@@ -6,6 +6,6 @@ data:extend({
     flags = { "goes-to-quickbar" },
     subgroup = "extraction-machine",
     place-result = "fishery",
-    stack_size = 5,
+    stack_size = 5
   }
-})
+})]]--
