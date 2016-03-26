@@ -22,6 +22,20 @@ data:extend({
       {type="fluid", name="water", amount=1000}
     },
     result = "raw-fish"
+  },
 
+  {
+    type = "recipe",
+    name = "animal-rendering",
+    category = "chemistry",
+    energy_required = 5,
+    ingredients =
+    {
+      {type="item", name = "raw-fish", amount=1}
+    },
+    results=
+    {
+      {type="fluid", name="animal-protein", amount=5}
+    }
   }
 })
