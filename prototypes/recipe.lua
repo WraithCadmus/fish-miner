@@ -13,7 +13,7 @@ data:extend({
   }]]--
   {
     type = "recipe",
-    energy_required = 600,
+    energy_required = 10,
     category = "crafting-with-fluid",
     name = "raw-fish",
     enabled = "true",
@@ -37,5 +37,19 @@ data:extend({
     {
       {type="fluid", name="animal-protein", amount=5}
     }
+  },
+
+  {
+    type = "recipe",
+    energy_required = 30,
+    category = "crafting-with-fluid",
+    name = "regenerative-serum",
+    enabled = "true",
+    ingredients =
+    {
+      {type="fluid", name="animal-protein", amount=40},
+      {type="item", name="sulfur", amount=5},
+    },
+    result = "regenerative-serum"
   }
 })
