@@ -42,6 +42,7 @@ data:extend({
         }
       }
     },
+    subgroup = "drugs",
     stack_size = 100
   }
 })

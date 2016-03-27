@@ -15,8 +15,8 @@ data:extend({
     type = "recipe",
     energy_required = 10,
     category = "crafting-with-fluid",
-    name = "raw-fish",
-    enabled = "true",
+    name = "fish-hydroponics",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="water", amount=1000}
@@ -28,6 +28,7 @@ data:extend({
     type = "recipe",
     name = "animal-rendering",
     category = "chemistry",
+    enabled = "false",
     energy_required = 5,
     ingredients =
     {
@@ -36,7 +37,8 @@ data:extend({
     results=
     {
       {type="fluid", name="animal-protein", amount=5}
-    }
+    },
+    subgroup = "fluid-recipes"
   },
 
   {
@@ -44,7 +46,7 @@ data:extend({
     energy_required = 30,
     category = "crafting-with-fluid",
     name = "regenerative-serum",
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {type="fluid", name="animal-protein", amount=40},
