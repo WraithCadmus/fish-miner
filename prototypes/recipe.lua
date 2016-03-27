@@ -38,7 +38,8 @@ data:extend({
     {
       {type="fluid", name="animal-protein", amount=5}
     },
-    subgroup = "fluid-recipes"
+    subgroup = "fluid-recipes",
+    order = "b[fluid-chemistry]-f[animal-rendering]"
   },
 
   {
